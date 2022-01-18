@@ -18,9 +18,9 @@ const Header = () => {
                 activeStyle={{color:'red'}}
                 activeClassName="selected"  >Movie</NavLink> -
               <NavLink 
-                className="p-2" to="/users"
+                className="p-2" to="/MyComponent"
                 activeStyle={{color:'red'}}
-                activeClassName="selected"  >Users</NavLink> -
+                activeClassName="selected"  >MyComponent</NavLink> -
             </nav>
           </div>
          

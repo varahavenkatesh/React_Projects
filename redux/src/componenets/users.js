@@ -10,7 +10,6 @@ getUsersHandler(){
   this.props.dispatch(getUsers())
 }
 
-
   render(){
     console.log(this.props)
     const {users} =this.props;
