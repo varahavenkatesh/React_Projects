@@ -5,7 +5,7 @@ const App= ({initialCount})=> {
 
   let [state,setState] = useState({
       count:initialCount,
-      user:"Venkatesh"
+      user:"Venkatesh "
     });
 
       let [posts,setPosts]=useState([
