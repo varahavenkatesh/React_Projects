@@ -1,0 +1,12 @@
+constructor
+static getDerivedStateFromProps()
+render()
+componentDidMount()
+componentDidUnmount()
+
+update lifecycle
+getDerivedStateFromProps
+shouldComponentUpdate
+render
+getSnapshotBeforeUpdate
+componentDidUpdate

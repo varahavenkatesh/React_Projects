@@ -1,0 +1,7 @@
+const restOne =()=>{
+    setCount(prevCount=>{
+      return prevCount-1
+    })
+  }
+  <button onClick={restOne}> Rest One -1</button>
+    <button onClick={()=>setCount(initialCount)}>RESET</button>

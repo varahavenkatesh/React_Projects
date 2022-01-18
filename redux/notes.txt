@@ -1,0 +1,35 @@
+index .js
+
+create provider
+create store
+invoke or apply middleware middleware and connect store
+connect store with reducer
+connect
+dispatch
+create reducer and get data
+
+create store folder
+create action and recuers  sub folders
+Rule is to have a index .js both in action and reducer 
+which manages entire functionality.
+
+in actions  have the method with action and payload.
+in reducers have an index which combiners and manages all the reducers
+and in specfic reducers we can have the switch logic to manage different actions .
+
+
+componenet which invokes action in this case its the header will have a connection object from redux
+which connect action and reducers with redux.
+
+{ movies && movies.movieData.actors ? movies.movieData.actors.map(item =>(
+      <div key={item.actors}>
+      name :{item.actors}
+      </div>
+    )) :null}
+
+
+    { users && users.getUsers ? users.getUsers.map(item =>(
+      <div key={item.id}>
+      Name :{item.name}
+      </div>
+    )) :null}

@@ -1,0 +1,5 @@
+installing Boot Strap
+npm install react-bootstrap bootstrap       
+
+installing React Toastify
+npm install --save react-toastify

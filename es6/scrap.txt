@@ -1,0 +1,25 @@
+ <div>
+        <div key = {item.id}></div>   
+        <div><h3>{item.id}</h3></div>
+        <div><h3>{item.name}</h3></div>
+       
+        </div>
+    });
+
+     const news = props.data.map((item)=>(
+          
+                <tr key = {item.id}>
+                   
+                <td><h3>{item.id}</h3></td>
+                <td><h3>{item.title}</h3></td>
+                <td><h3>{item.feed}</h3></td>
+                </tr>
+
+            
+    ))
+
+     context.users.forEach((user)=>{
+        output+=`<div>${user.name}</div>`
+        });
+    console.log(context.users);
+    //console.log(users);
