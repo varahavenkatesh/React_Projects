@@ -33,17 +33,21 @@ const MyComponent =  () =>{
       return <div>Loading...</div>;
     } else {
       return (
+          
         <ul>
+            <h1>Users Information</h1>
+            
         {items.map(item => (
           <li key={item.id}>
              <b>Name: </b>{item.name} {item.username}
              <b>  EMAIL :</b> {item.email} 
-            <br/>
-            <b>Address:</b> {item.address.street} {item.address.suite} 
-            {item.address.city} {item.address.zipcode} 
-            <br/>
-             <b>Web Company  Address:</b> {item.phone} {item.website}
-            {item.company.name} {item.company.catchPhrase}
+            <hr/>
+            <b>Address:</b> {item.address.street} &nbsp;&nbsp;  {item.address.suite} 
+            {item.address.city}&nbsp;&nbsp;   {item.address.zipcode} 
+            <hr/>
+             <b>Web Company  Address:</b> {item.phone}&nbsp;&nbsp; {item.website}
+            {item.company.name}&nbsp;&nbsp; {item.company.catchPhrase}
+            <hr/>
           </li>
         ))}
       </ul>
